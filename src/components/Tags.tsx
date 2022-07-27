@@ -59,7 +59,7 @@ const colorToClassMap = {
 
 const Tags = (props: ITagsProps) => (
   <div
-    className={`rounded-md px-2 py-1 text-xs font-semibold ${
+    className={`truncate rounded-md p-1 text-xs font-semibold${
       colorToClassMap[props.color]
     }`}
   >
