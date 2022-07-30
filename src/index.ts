@@ -16,6 +16,7 @@ import { PostHeader } from './components/PostHeader';
 import { Project } from './components/Project';
 import { Section } from './components/Section';
 import { ColorTags, Tags } from './components/Tags';
+import { ThanksName } from './components/ThanksName';
 import type {
   FrontmatterPage,
   IFrontmatter,
@@ -47,4 +48,5 @@ export {
   Project,
   Section,
   Tags,
+  ThanksName,
 };
